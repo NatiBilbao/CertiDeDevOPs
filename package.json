@@ -1,0 +1,23 @@
+{
+  "name": "certidedevops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatiBilbao/CertiDeDevOPs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatiBilbao/CertiDeDevOPs/issues"
+  },
+  "homepage": "https://github.com/NatiBilbao/CertiDeDevOPs#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
