@@ -1,5 +1,4 @@
-name: Deploy Next.js 
-
+name: Test Build y Deploy
 on:
   push:
     branches: ["feature/**", "release/**"]
