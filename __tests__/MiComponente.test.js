@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import MiComponente from './MiComponente';
+import MiComponente from '../src/MiComponente';
 
 test('Renderiza el componente MiComponente correctamente', () => {
   // Renderiza el componente en un contenedor virtual
