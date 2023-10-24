@@ -47,13 +47,9 @@ jobs:
       
       - name: Desplegar en rama release
         if: startsWith(github.ref, 'refs/heads/release/')
-        run: |
-          # Comandos para implementar en la rama de release
-          # Por ejemplo: npm run deploy-release
+        run: npm run deploy-release
 
       - name: Desplegar en ramas feature
         if: startsWith(github.ref, 'refs/heads/feature/')
-        run: |
-          # Comandos para implementar en ramas feature
-          # Por ejemplo: npm run deploy-feature
+        run: npm run deploy-feature
 
